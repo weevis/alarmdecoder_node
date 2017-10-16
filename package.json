@@ -1,0 +1,19 @@
+{
+  "name": "alarmdecoder_node",
+  "version": "1.0.0",
+  "description": "Basic message parsing from a ser2sock instance of alarmdecoder network appliance",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weevis/alarmdecoder_node.git"
+  },
+  "author": "Kevin Roberts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weevis/alarmdecoder_node/issues"
+  },
+  "homepage": "https://github.com/weevis/alarmdecoder_node#readme"
+}

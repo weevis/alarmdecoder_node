@@ -2,8 +2,8 @@ const ser2sock_host = 'alarmdecoder.local';
 const ser2sock_port = 10000;
 
 const readline = require('readline');
-const var net = require('net');
-const var http = require('http');
+var net = require('net');
+var http = require('http');
 const emitter = require('events');
 
 class ADEmitter extends emitter {
@@ -226,3 +226,10 @@ process.stdin.on('keypress', (str, key) => {
         client.write(str);
         client.end();
 });
+
+module.exports = {
+    BaseMessage: BaseMessage,
+    PanelMessage: PanelMessage,
+    Emitter: myEmitter,
+    client: client
+}
